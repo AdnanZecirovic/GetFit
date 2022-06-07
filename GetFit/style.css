@@ -51,6 +51,61 @@ li a {
   background-repeat: no-repeat;
   background-size: cover;
 }
+
+.textBackground {
+  font-size: 60px;
+  text-align: center;
+  font-weight: bold;
+  color: white;
+  text-shadow: 2px 2px black;
+}
+
+.uselessButton {
+  border: 0px;
+  border-radius: 5px;
+  background-color: rgb(59, 3, 59);
+  color: white;
+  font-size: 20px;
+  cursor: pointer;
+  padding: 10px 8px;
+  width: 120px;
+  height: 50px;
+}
+.exercises {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  min-height: 100vh;
+  background-image: url(exercise.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.mainTitle {
+  font-size: 60px;
+  text-align: center;
+  font-weight: bold;
+  color: rgb(31, 28, 28);
+  text-shadow: 2px 2px rgb(255, 253, 253);
+}
+.smallerText {
+  font-size: 30px;
+  text-align: center;
+  font-weight: bold;
+  color: black;
+  text-shadow: 2px 2px white;
+}
+.opacityFam {
+  padding: 10px;
+  box-shadow: 0px 0px 2px black;
+  border-radius: 5px;
+  background-color: aliceblue;
+
+  height: 300px;
+  width: 600px;
+}
 .nutrition {
   display: flex;
   justify-content: center;
@@ -62,24 +117,44 @@ li a {
   background-size: cover;
   background-position: center;
 }
-.textBackground {
-  font-size: 60px;
+.card {
+  height: 500px;
+  width: 350px;
+  border: 2px solid black;
+  border-radius: 10px;
+  box-shadow: 0px 0px 2px white;
+  margin-left: 20px;
+  float: left;
+  background-color: beige;
+}
+.cardImage {
+  width: 100%;
+  height: 250px;
+}
+.cardTitle {
+  font-size: 30px;
   text-align: center;
   font-weight: bold;
-  color: white;
-  text-shadow: 2px 2px black;
+  text-shadow: 2px 2px white;
+  color: black;
 }
-.oblikTexta {
-  margin: 0px;
-}
-.uselessButton {
-  border: 0px;
-  border-radius: 5px;
-  background-color: rgb(59, 3, 59);
-  color: white;
+.cardText {
+  margin: 20px;
   font-size: 20px;
-  cursor: pointer;
-  padding: 10px 8px;
-  width: 120px;
-  height: 50px;
+  text-align: center;
+  text-shadow: 2px 2px white;
+  color: black;
+}
+footer {
+  height: 80px;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.904);
+}
+.footerText {
+  float: right;
+  margin-right: 20px;
+  font-size: 25px;
+  color: white;
+  text-shadow: 2px 2px blue;
+  font-style: italic;
 }
